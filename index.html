@@ -14,13 +14,12 @@
 				<input type ="text" ng-model="foods" />
 				<div>{{foods}}</div>
 			</div>
-	<section ng-controller="TodoCtrl"></section>
+	<section ng-controller="TodoCtrl">
 			<h1>{{title}}</h1>
-			<h1>{{pasta}}</h1>
 
 			<div>
 			<ul ng-repeat ="todo in todos">
-			<li>{{todo}}</li>>
+			<li>{{todo.name}}</li>
 			</ul>
 			</div>
 
